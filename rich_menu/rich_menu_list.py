@@ -1,0 +1,5 @@
+from linebot import LineBotApi
+from linebot.exceptions import LineBotApiError
+line_bot_api = LineBotApi('LeGI5GpAq9mlLHmQwN5mZlPeQ9SaoNmJPabyECJNmEohpf0HaREY6tQNz4ufk6QgLSQMFwowuFHU6AbD5opCHe2NaecSd7vqfGEQJpnQxZ8RU3OZaXs0ybXlkc9aG9cFfOyLa9qkLtk7DVDe8jgJ5gdB04t89/1O/w1cDnyilFU=')
+
+rich_menu_list = line_bot_api.get_rich_menu_list()
